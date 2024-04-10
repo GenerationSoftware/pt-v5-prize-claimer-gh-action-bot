@@ -1,0 +1,106 @@
+Operating on: 11155420 - Optimism Sepolia
+Config - MIN_PROFIT_THRESHOLD_USD: -0.1
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0x3749e4DA7558BeD9b0819dE7f8C7eFc271Db004e' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3504.3723    │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬───────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray               │
+├─────────┼──────────┼───────────────────────────────┤
+│ tiers   │ 6        │ [ 0, 1, 2, ... 3 more items ] │
+└─────────┴──────────┴───────────────────────────────┘
+Draw ID: 17
+Prize Token WETH MarketRate USD:  $3504.3723
+
+******************
+Getting prize vaults ...
+Found 6 prize vaults.
+
+320 prizes already claimed for draw #17.
+1058 prizes remaining to be claimed...
+
+
+
+
+******************
+Processing:
+Vault:     0xa18d434e584b24b364b506cf2b5cc0cef6be5d5c
+Tier:      #4 (Canary tier)
+# prizes:  16
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3509.28
+
+Estimated gas limit (wei) (1 prize claim): 0.000000000000189066 ETH (189066 wei)
+Estimated gas limit (wei) (2 prize claims): 0.000000000000275438 ETH (275438 wei)
+
+Gas Cost: First Claim (wei): 0.000000000000189066 ETH (189066 wei)
+Gas Cost: Each Following Claim (wei): 0.000000000000086372 ETH (86372 wei)
+
+Gas Cost: First Claim (USD): $0.16 $0.16382499687106986
+Gas Cost: Each Following Claim (USD): $0.2 $0.20058883443906753
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $0.16 ($0.16382499687106986)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.000016476373001715 WETH (16476373001715 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0.06 ($0.057739345151677904)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$-0.11 = ($0.06 - $0.16) $-0.10608565171939195 = ($0.057739345151677904 - $0.16382499687106986)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$-0.16 = ($0 - $0.16) $-0.16382499687106986 = ($0 - $0.16382499687106986)
+
+Claiming tier #4 (Canary tier) currently not profitable.
+Not profitable to claim for Draw #17, Tier: #4 (Canary tier)
+
+
+
+
+******************
+Processing:
+Vault:     0x75ca27bb45d689c18f350592e036ee4e10a68d06
+Tier:      #5 (Canary tier)
+# prizes:  353
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x798a13b071a8aac2d55109a53a2ba4230444619d
+Tier:      #5 (Canary tier)
+# prizes:  68
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xa18d434e584b24b364b506cf2b5cc0cef6be5d5c
+Tier:      #5 (Canary tier)
+# prizes:  621
+
+Tier #5 (Canary tier) not profitable, skipping ...
+

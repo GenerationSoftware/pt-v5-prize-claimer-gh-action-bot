@@ -1,0 +1,103 @@
+Operating on: 11155420 - Optimism Sepolia
+Config - MIN_PROFIT_THRESHOLD_USD: -0.1
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0x28Dae98474c0EeDF4Ee74Da5300Dd89dE5466E62' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3551.0662    │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬──────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray              │
+├─────────┼──────────┼──────────────────────────────┤
+│ tiers   │ 4        │ [ 0, 1, 2, ... 1 more item ] │
+└─────────┴──────────┴──────────────────────────────┘
+Draw ID: 17
+Prize Token WETH MarketRate USD:  $3551.0662
+
+******************
+Getting prize vaults ...
+Found 6 prize vaults.
+
+15 prizes already claimed for draw #17.
+76 prizes remaining to be claimed...
+
+
+
+
+******************
+Processing:
+Vault:     0xc1f6251c8b8ca9ea535dd297cb9cbfe49efa6bb0
+Tier:      #2 (Canary tier)
+# prizes:  1
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3537.04
+
+Estimated gas limit (wei) (1 prize claim): 0.00000000000015603 ETH (156030 wei)
+
+Gas Cost: First Claim (wei): 0.00000000000015603 ETH (156030 wei)
+
+Gas Cost: First Claim (USD): $1.8 $1.8041622838463405
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $1.8 ($1.8041622838463405)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.000153909321706567 WETH (153909321706567 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0.55 ($0.5465421901771164)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$-1.26 = ($0.55 - $1.8) $-1.2576200936692241 = ($0.5465421901771164 - $1.8041622838463405)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$-1.8 = ($0 - $1.8) $-1.8041622838463405 = ($0 - $1.8041622838463405)
+
+Claiming tier #2 (Canary tier) currently not profitable.
+Not profitable to claim for Draw #17, Tier: #2 (Canary tier)
+
+
+
+
+******************
+Processing:
+Vault:     0x887db83c6b90b8c6d3a0729e1299c6153220649e
+Tier:      #3 (Canary tier)
+# prizes:  34
+
+Tier #3 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xc1f6251c8b8ca9ea535dd297cb9cbfe49efa6bb0
+Tier:      #3 (Canary tier)
+# prizes:  10
+
+Tier #3 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xe0462dc45922ca4d8d50748504b1d383349a25df
+Tier:      #3 (Canary tier)
+# prizes:  31
+
+Tier #3 (Canary tier) not profitable, skipping ...
+

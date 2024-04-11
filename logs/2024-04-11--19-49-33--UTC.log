@@ -1,0 +1,68 @@
+Operating on: 11155420 - Optimism Sepolia
+Config - MIN_PROFIT_THRESHOLD_USD: -0.1
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0x28Dae98474c0EeDF4Ee74Da5300Dd89dE5466E62' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3516.1838    │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬──────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray              │
+├─────────┼──────────┼──────────────────────────────┤
+│ tiers   │ 4        │ [ 0, 1, 2, ... 1 more item ] │
+└─────────┴──────────┴──────────────────────────────┘
+Draw ID: 21
+Prize Token WETH MarketRate USD:  $3516.1838
+
+******************
+Getting prize vaults ...
+Found 6 prize vaults.
+
+23 prizes already claimed for draw #21.
+67 prizes remaining to be claimed...
+
+
+
+
+******************
+Processing:
+Vault:     0xe0462dc45922ca4d8d50748504b1d383349a25df
+Tier:      #1
+# prizes:  1
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3516.5
+
+Estimated gas limit (wei) (1 prize claim): 0.00000000000023302 ETH (233020 wei)
+
+Gas Cost: First Claim (wei): 0.00000000000023302 ETH (233020 wei)
+
+Gas Cost: First Claim (USD): $1.17 $1.165084730126662
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $1.17 ($1.165084730126662)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.000180562602824977 WETH (180562602824977 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0.63 ($0.6348912989390183)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$-0.53 = ($0.63 - $1.17) $-0.5301934311876437 = ($0.6348912989390183 - $1.165084730126662)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$-1.17 = ($0 - $1.17) $-1.165084730126662 = ($0 - $1.165084730126662)
+
+Claiming tier #1 currently not profitable.
+Not profitable to claim for Draw #21, Tier: #1
+Not profitable to claim any more tiers yet for Draw #21

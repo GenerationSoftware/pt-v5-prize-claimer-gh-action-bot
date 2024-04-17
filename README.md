@@ -24,7 +24,7 @@ You can simply fork this repo, enter your own custom environment variables in yo
 4. [View logs](#user-content-4-view-logs)
 5. [(Optional) Change Chain or Reward Recipient](#user-content-5-optional-change-chain-or-reward-recipient)
 
-**Note**: This process is essentially the same for the [Prize Claimer](https://github.com/GenerationSoftware/pt-v5-prize-claimer-gh-action-bot/) and [Prize Claimer](https://github.com/GenerationSoftware/pt-v5-prize-claimer-gh-action-bot) bots as well.
+**Note**: This process is essentially the same for the [Draw Auction](https://github.com/GenerationSoftware/pt-v5-draw-auction-gh-action-bot/) and [Liquidator](https://github.com/GenerationSoftware/pt-v5-liquidator-gh-action-bot) bots as well.
 
 
 

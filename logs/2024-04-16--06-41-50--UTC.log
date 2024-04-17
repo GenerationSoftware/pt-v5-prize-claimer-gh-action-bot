@@ -1,0 +1,120 @@
+Operating on: 11155420 - Optimism Sepolia
+
+Config - REWARD_RECIPIENT not provided, setting swap recipient to relayer address: 0x06003274c3a7926c04cA8d6903cc691fE8f3CEC2
+Config - MIN_PROFIT_THRESHOLD_USD: 0.05
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0xC355F97a3Aa2808Acb536E555764b8FB26fB4b37' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3068.3074    │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬───────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray               │
+├─────────┼──────────┼───────────────────────────────┤
+│ tiers   │ 7        │ [ 0, 1, 2, ... 4 more items ] │
+└─────────┴──────────┴───────────────────────────────┘
+Draw ID: 20
+Prize Token WETH MarketRate USD:  $3068.3074
+
+******************
+Getting prize vaults ...
+Found 6 prize vaults.
+
+1090 prizes already claimed for draw #20.
+4355 prizes remaining to be claimed...
+
+
+
+
+******************
+Processing:
+Vault:     0x33335296c9b020ca3252e4953c11decfdce816b8
+Tier:      #5 (Canary tier)
+# prizes:  268
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3071.87
+
+Estimated gas limit (wei) (1 prize claim): 0.00000000000019436 ETH (194360 wei)
+Estimated gas limit (wei) (2 prize claims): 0.000000000000281996 ETH (281996 wei)
+
+Gas Cost: First Claim (wei): 0.00000000000019436 ETH (194360 wei)
+Gas Cost: Each Following Claim (wei): 0.000000000000087636 ETH (87636 wei)
+
+Gas Cost: First Claim (USD): $0.02 $0.015837365540911877
+Gas Cost: Each Following Claim (USD): $0.02 $0.018977055330956453
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $0.02 ($0.015837365540911877)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.000012182484115638 WETH (12182484115638 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0.04 ($0.03737960616239453)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$0.02 = ($0.04 - $0.02) $0.021542240621482654 = ($0.03737960616239453 - $0.015837365540911877)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$-0.02 = ($0 - $0.02) $-0.015837365540911877 = ($0 - $0.015837365540911877)
+
+Claiming tier #5 (Canary tier) currently not profitable.
+Not profitable to claim for Draw #20, Tier: #5 (Canary tier)
+
+
+
+
+******************
+Processing:
+Vault:     0x7fad91a4a29109303188d8758f1a9d60ce988349
+Tier:      #5 (Canary tier)
+# prizes:  453
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x33335296c9b020ca3252e4953c11decfdce816b8
+Tier:      #6 (Canary tier)
+# prizes:  1371
+
+Tier #6 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x75b2f4b3ec5adf7077f928992524cc547e74f768
+Tier:      #6 (Canary tier)
+# prizes:  173
+
+Tier #6 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x7fad91a4a29109303188d8758f1a9d60ce988349
+Tier:      #6 (Canary tier)
+# prizes:  2090
+
+Tier #6 (Canary tier) not profitable, skipping ...
+

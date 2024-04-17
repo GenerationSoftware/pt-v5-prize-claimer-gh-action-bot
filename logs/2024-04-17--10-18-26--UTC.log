@@ -1,0 +1,643 @@
+Operating on: 11155420 - Optimism Sepolia
+
+Config - REWARD_RECIPIENT not provided, setting swap recipient to relayer address: 0x06003274c3a7926c04cA8d6903cc691fE8f3CEC2
+Config - MIN_PROFIT_THRESHOLD_USD: 0.05
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0xC355F97a3Aa2808Acb536E555764b8FB26fB4b37' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3073.519     │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬───────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray               │
+├─────────┼──────────┼───────────────────────────────┤
+│ tiers   │ 7        │ [ 0, 1, 2, ... 4 more items ] │
+└─────────┴──────────┴───────────────────────────────┘
+Draw ID: 27
+Prize Token WETH MarketRate USD:  $3073.519
+
+******************
+Getting prize vaults ...
+Found 6 prize vaults.
+
+480 prizes already claimed for draw #27.
+4849 prizes remaining to be claimed...
+
+
+
+
+******************
+Processing:
+Vault:     0x7fad91a4a29109303188d8758f1a9d60ce988349
+Tier:      #4
+# prizes:  45
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3064.63
+
+Estimated gas limit (wei) (1 prize claim): 0.000000000000243299 ETH (243299 wei)
+Estimated gas limit (wei) (2 prize claims): 0.000000000000341757 ETH (341757 wei)
+
+Gas Cost: First Claim (wei): 0.000000000000243299 ETH (243299 wei)
+Gas Cost: Each Following Claim (wei): 0.000000000000098458 ETH (98458 wei)
+
+Gas Cost: First Claim (USD): $0.07 $0.0708369993204558
+Gas Cost: Each Following Claim (USD): $0.09 $0.08639555818452647
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $0.07 ($0.0708369993204558)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.000245553689777989 WETH (245553689777989 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0.75 ($0.7547139310527549)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$0.68 = ($0.75 - $0.07) $0.683876931732299 = ($0.7547139310527549 - $0.0708369993204558)
+
+
+5b. 2 Claim(s):
+
+Total gas cost: 2 Claim(s) (USD): $0.16 ($0.15723255750498227)
+
+Claim Reward: 1 Claim(s) (WEI): 0.000245553689777989 WETH (245553689777989 wei)
+Claim Reward: 1 Claim(s) (USD): $0.75 ($0.7547139310527549)
+
+Next Claim Reward: 2 Claim(s) (WEI): 0.000491107379555978 WETH (491107379555978 wei)
+Next Claim Reward: 2 Claim(s) (USD): $1.51 ($1.5094278621055097)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$1.35 = ($1.51 - $0.16) $1.3521953046005275 = ($1.5094278621055097 - $0.15723255750498227)
+
+
+5b. 3 Claim(s):
+
+Total gas cost: 3 Claim(s) (USD): $0.24 ($0.24362811568950876)
+
+Claim Reward: 2 Claim(s) (WEI): 0.000491107379555978 WETH (491107379555978 wei)
+Claim Reward: 2 Claim(s) (USD): $1.51 ($1.5094278621055097)
+
+Next Claim Reward: 3 Claim(s) (WEI): 0.000736661069333967 WETH (736661069333967 wei)
+Next Claim Reward: 3 Claim(s) (USD): $2.26 ($2.264141793158265)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$2.02 = ($2.26 - $0.24) $2.020513677468756 = ($2.264141793158265 - $0.24362811568950876)
+
+
+5b. 4 Claim(s):
+
+Total gas cost: 4 Claim(s) (USD): $0.33 ($0.3300236738740352)
+
+Claim Reward: 3 Claim(s) (WEI): 0.000736661069333967 WETH (736661069333967 wei)
+Claim Reward: 3 Claim(s) (USD): $2.26 ($2.264141793158265)
+
+Next Claim Reward: 4 Claim(s) (WEI): 0.000982214759111956 WETH (982214759111956 wei)
+Next Claim Reward: 4 Claim(s) (USD): $3.02 ($3.0188557242110194)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$2.69 = ($3.02 - $0.33) $2.688832050336984 = ($3.0188557242110194 - $0.3300236738740352)
+
+
+5b. 5 Claim(s):
+
+Total gas cost: 5 Claim(s) (USD): $0.42 ($0.4164192320585617)
+
+Claim Reward: 4 Claim(s) (WEI): 0.000982214759111956 WETH (982214759111956 wei)
+Claim Reward: 4 Claim(s) (USD): $3.02 ($3.0188557242110194)
+
+Next Claim Reward: 5 Claim(s) (WEI): 0.001227768448889945 WETH (1227768448889945 wei)
+Next Claim Reward: 5 Claim(s) (USD): $3.77 ($3.7735696552637745)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$3.36 = ($3.77 - $0.42) $3.357150423205213 = ($3.7735696552637745 - $0.4164192320585617)
+
+
+5b. 6 Claim(s):
+
+Total gas cost: 6 Claim(s) (USD): $0.5 ($0.5028147902430882)
+
+Claim Reward: 5 Claim(s) (WEI): 0.001227768448889945 WETH (1227768448889945 wei)
+Claim Reward: 5 Claim(s) (USD): $3.77 ($3.7735696552637745)
+
+Next Claim Reward: 6 Claim(s) (WEI): 0.001473322138667934 WETH (1473322138667934 wei)
+Next Claim Reward: 6 Claim(s) (USD): $4.53 ($4.52828358631653)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$4.03 = ($4.53 - $0.5) $4.025468796073442 = ($4.52828358631653 - $0.5028147902430882)
+
+
+5b. 7 Claim(s):
+
+Total gas cost: 7 Claim(s) (USD): $0.59 ($0.5892103484276147)
+
+Claim Reward: 6 Claim(s) (WEI): 0.001473322138667934 WETH (1473322138667934 wei)
+Claim Reward: 6 Claim(s) (USD): $4.53 ($4.52828358631653)
+
+Next Claim Reward: 7 Claim(s) (WEI): 0.001718875828445923 WETH (1718875828445923 wei)
+Next Claim Reward: 7 Claim(s) (USD): $5.28 ($5.282997517369285)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$4.69 = ($5.28 - $0.59) $4.693787168941671 = ($5.282997517369285 - $0.5892103484276147)
+
+
+5b. 8 Claim(s):
+
+Total gas cost: 8 Claim(s) (USD): $0.68 ($0.6756059066121411)
+
+Claim Reward: 7 Claim(s) (WEI): 0.001718875828445923 WETH (1718875828445923 wei)
+Claim Reward: 7 Claim(s) (USD): $5.28 ($5.282997517369285)
+
+Next Claim Reward: 8 Claim(s) (WEI): 0.001964429518223912 WETH (1964429518223912 wei)
+Next Claim Reward: 8 Claim(s) (USD): $6.04 ($6.037711448422039)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$5.36 = ($6.04 - $0.68) $5.362105541809898 = ($6.037711448422039 - $0.6756059066121411)
+
+
+5b. 9 Claim(s):
+
+Total gas cost: 9 Claim(s) (USD): $0.76 ($0.7620014647966676)
+
+Claim Reward: 8 Claim(s) (WEI): 0.001964429518223912 WETH (1964429518223912 wei)
+Claim Reward: 8 Claim(s) (USD): $6.04 ($6.037711448422039)
+
+Next Claim Reward: 9 Claim(s) (WEI): 0.002209983208001901 WETH (2209983208001901 wei)
+Next Claim Reward: 9 Claim(s) (USD): $6.79 ($6.7924253794747935)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$6.03 = ($6.79 - $0.76) $6.030423914678126 = ($6.7924253794747935 - $0.7620014647966676)
+
+
+5b. 10 Claim(s):
+
+Total gas cost: 10 Claim(s) (USD): $0.85 ($0.8483970229811941)
+
+Claim Reward: 9 Claim(s) (WEI): 0.002209983208001901 WETH (2209983208001901 wei)
+Claim Reward: 9 Claim(s) (USD): $6.79 ($6.7924253794747935)
+
+Next Claim Reward: 10 Claim(s) (WEI): 0.00245553689777989 WETH (2455536897779890 wei)
+Next Claim Reward: 10 Claim(s) (USD): $7.55 ($7.547139310527549)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$6.7 = ($7.55 - $0.85) $6.698742287546355 = ($7.547139310527549 - $0.8483970229811941)
+
+
+5b. 11 Claim(s):
+
+Total gas cost: 11 Claim(s) (USD): $0.93 ($0.9347925811657206)
+
+Claim Reward: 10 Claim(s) (WEI): 0.00245553689777989 WETH (2455536897779890 wei)
+Claim Reward: 10 Claim(s) (USD): $7.55 ($7.547139310527549)
+
+Next Claim Reward: 11 Claim(s) (WEI): 0.002701090587557879 WETH (2701090587557879 wei)
+Next Claim Reward: 11 Claim(s) (USD): $8.3 ($8.301853241580304)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$7.37 = ($8.3 - $0.93) $7.367060660414583 = ($8.301853241580304 - $0.9347925811657206)
+
+
+5b. 12 Claim(s):
+
+Total gas cost: 12 Claim(s) (USD): $1.02 ($1.021188139350247)
+
+Claim Reward: 11 Claim(s) (WEI): 0.002701090587557879 WETH (2701090587557879 wei)
+Claim Reward: 11 Claim(s) (USD): $8.3 ($8.301853241580304)
+
+Next Claim Reward: 12 Claim(s) (WEI): 0.002946644277335868 WETH (2946644277335868 wei)
+Next Claim Reward: 12 Claim(s) (USD): $9.06 ($9.05656717263306)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$8.04 = ($9.06 - $1.02) $8.035379033282812 = ($9.05656717263306 - $1.021188139350247)
+
+
+5b. 13 Claim(s):
+
+Total gas cost: 13 Claim(s) (USD): $1.11 ($1.1075836975347735)
+
+Claim Reward: 12 Claim(s) (WEI): 0.002946644277335868 WETH (2946644277335868 wei)
+Claim Reward: 12 Claim(s) (USD): $9.06 ($9.05656717263306)
+
+Next Claim Reward: 13 Claim(s) (WEI): 0.003192197967113857 WETH (3192197967113857 wei)
+Next Claim Reward: 13 Claim(s) (USD): $9.81 ($9.811281103685813)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$8.7 = ($9.81 - $1.11) $8.70369740615104 = ($9.811281103685813 - $1.1075836975347735)
+
+
+5b. 14 Claim(s):
+
+Total gas cost: 14 Claim(s) (USD): $1.19 ($1.1939792557193)
+
+Claim Reward: 13 Claim(s) (WEI): 0.003192197967113857 WETH (3192197967113857 wei)
+Claim Reward: 13 Claim(s) (USD): $9.81 ($9.811281103685813)
+
+Next Claim Reward: 14 Claim(s) (WEI): 0.003437751656891846 WETH (3437751656891846 wei)
+Next Claim Reward: 14 Claim(s) (USD): $10.57 ($10.56599503473857)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$9.37 = ($10.57 - $1.19) $9.37201577901927 = ($10.56599503473857 - $1.1939792557193)
+
+
+5b. 15 Claim(s):
+
+Total gas cost: 15 Claim(s) (USD): $1.28 ($1.2803748139038265)
+
+Claim Reward: 14 Claim(s) (WEI): 0.003437751656891846 WETH (3437751656891846 wei)
+Claim Reward: 14 Claim(s) (USD): $10.57 ($10.56599503473857)
+
+Next Claim Reward: 15 Claim(s) (WEI): 0.003683305346669835 WETH (3683305346669835 wei)
+Next Claim Reward: 15 Claim(s) (USD): $11.32 ($11.320708965791324)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$10.04 = ($11.32 - $1.28) $10.040334151887498 = ($11.320708965791324 - $1.2803748139038265)
+
+
+5b. 16 Claim(s):
+
+Total gas cost: 16 Claim(s) (USD): $1.37 ($1.366770372088353)
+
+Claim Reward: 15 Claim(s) (WEI): 0.003683305346669835 WETH (3683305346669835 wei)
+Claim Reward: 15 Claim(s) (USD): $11.32 ($11.320708965791324)
+
+Next Claim Reward: 16 Claim(s) (WEI): 0.003928859036447824 WETH (3928859036447824 wei)
+Next Claim Reward: 16 Claim(s) (USD): $12.08 ($12.075422896844078)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$10.71 = ($12.08 - $1.37) $10.708652524755724 = ($12.075422896844078 - $1.366770372088353)
+
+
+5b. 17 Claim(s):
+
+Total gas cost: 17 Claim(s) (USD): $1.45 ($1.4531659302728794)
+
+Claim Reward: 16 Claim(s) (WEI): 0.003928859036447824 WETH (3928859036447824 wei)
+Claim Reward: 16 Claim(s) (USD): $12.08 ($12.075422896844078)
+
+Next Claim Reward: 17 Claim(s) (WEI): 0.004174412726225813 WETH (4174412726225813 wei)
+Next Claim Reward: 17 Claim(s) (USD): $12.83 ($12.830136827896833)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$11.38 = ($12.83 - $1.45) $11.376970897623954 = ($12.830136827896833 - $1.4531659302728794)
+
+
+5b. 18 Claim(s):
+
+Total gas cost: 18 Claim(s) (USD): $1.54 ($1.5395614884574058)
+
+Claim Reward: 17 Claim(s) (WEI): 0.004174412726225813 WETH (4174412726225813 wei)
+Claim Reward: 17 Claim(s) (USD): $12.83 ($12.830136827896833)
+
+Next Claim Reward: 18 Claim(s) (WEI): 0.004419966416003802 WETH (4419966416003802 wei)
+Next Claim Reward: 18 Claim(s) (USD): $13.58 ($13.584850758949587)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$12.05 = ($13.58 - $1.54) $12.045289270492182 = ($13.584850758949587 - $1.5395614884574058)
+
+
+5b. 19 Claim(s):
+
+Total gas cost: 19 Claim(s) (USD): $1.63 ($1.6259570466419324)
+
+Claim Reward: 18 Claim(s) (WEI): 0.004419966416003802 WETH (4419966416003802 wei)
+Claim Reward: 18 Claim(s) (USD): $13.58 ($13.584850758949587)
+
+Next Claim Reward: 19 Claim(s) (WEI): 0.004665520105781791 WETH (4665520105781791 wei)
+Next Claim Reward: 19 Claim(s) (USD): $14.34 ($14.339564690002343)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$12.71 = ($14.34 - $1.63) $12.71360764336041 = ($14.339564690002343 - $1.6259570466419324)
+
+
+5b. 20 Claim(s):
+
+Total gas cost: 20 Claim(s) (USD): $1.71 ($1.7123526048264588)
+
+Claim Reward: 19 Claim(s) (WEI): 0.004665520105781791 WETH (4665520105781791 wei)
+Claim Reward: 19 Claim(s) (USD): $14.34 ($14.339564690002343)
+
+Next Claim Reward: 20 Claim(s) (WEI): 0.00491107379555978 WETH (4911073795559780 wei)
+Next Claim Reward: 20 Claim(s) (USD): $15.09 ($15.094278621055098)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$13.38 = ($15.09 - $1.71) $13.38192601622864 = ($15.094278621055098 - $1.7123526048264588)
+
+
+5b. 21 Claim(s):
+
+Total gas cost: 21 Claim(s) (USD): $1.8 ($1.7987481630109854)
+
+Claim Reward: 20 Claim(s) (WEI): 0.00491107379555978 WETH (4911073795559780 wei)
+Claim Reward: 20 Claim(s) (USD): $15.09 ($15.094278621055098)
+
+Next Claim Reward: 21 Claim(s) (WEI): 0.005156627485337769 WETH (5156627485337769 wei)
+Next Claim Reward: 21 Claim(s) (USD): $15.85 ($15.848992552107852)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$14.05 = ($15.85 - $1.8) $14.050244389096866 = ($15.848992552107852 - $1.7987481630109854)
+
+
+5b. 22 Claim(s):
+
+Total gas cost: 22 Claim(s) (USD): $1.89 ($1.8851437211955118)
+
+Claim Reward: 21 Claim(s) (WEI): 0.005156627485337769 WETH (5156627485337769 wei)
+Claim Reward: 21 Claim(s) (USD): $15.85 ($15.848992552107852)
+
+Next Claim Reward: 22 Claim(s) (WEI): 0.005402181175115758 WETH (5402181175115758 wei)
+Next Claim Reward: 22 Claim(s) (USD): $16.6 ($16.603706483160607)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$14.72 = ($16.6 - $1.89) $14.718562761965096 = ($16.603706483160607 - $1.8851437211955118)
+
+
+5b. 23 Claim(s):
+
+Total gas cost: 23 Claim(s) (USD): $1.97 ($1.9715392793800384)
+
+Claim Reward: 22 Claim(s) (WEI): 0.005402181175115758 WETH (5402181175115758 wei)
+Claim Reward: 22 Claim(s) (USD): $16.6 ($16.603706483160607)
+
+Next Claim Reward: 23 Claim(s) (WEI): 0.005647734864893747 WETH (5647734864893747 wei)
+Next Claim Reward: 23 Claim(s) (USD): $17.36 ($17.358420414213363)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$15.39 = ($17.36 - $1.97) $15.386881134833324 = ($17.358420414213363 - $1.9715392793800384)
+
+
+5b. 24 Claim(s):
+
+Total gas cost: 24 Claim(s) (USD): $2.06 ($2.0579348375645647)
+
+Claim Reward: 23 Claim(s) (WEI): 0.005647734864893747 WETH (5647734864893747 wei)
+Claim Reward: 23 Claim(s) (USD): $17.36 ($17.358420414213363)
+
+Next Claim Reward: 24 Claim(s) (WEI): 0.005893288554671736 WETH (5893288554671736 wei)
+Next Claim Reward: 24 Claim(s) (USD): $18.11 ($18.11313434526612)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$16.06 = ($18.11 - $2.06) $16.055199507701552 = ($18.11313434526612 - $2.0579348375645647)
+
+
+5b. 25 Claim(s):
+
+Total gas cost: 25 Claim(s) (USD): $2.14 ($2.144330395749091)
+
+Claim Reward: 24 Claim(s) (WEI): 0.005893288554671736 WETH (5893288554671736 wei)
+Claim Reward: 24 Claim(s) (USD): $18.11 ($18.11313434526612)
+
+Next Claim Reward: 25 Claim(s) (WEI): 0.006138842244449725 WETH (6138842244449725 wei)
+Next Claim Reward: 25 Claim(s) (USD): $18.87 ($18.86784827631887)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$16.72 = ($18.87 - $2.14) $16.72351788056978 = ($18.86784827631887 - $2.144330395749091)
+
+
+5b. 26 Claim(s):
+
+Total gas cost: 26 Claim(s) (USD): $2.23 ($2.2307259539336175)
+
+Claim Reward: 25 Claim(s) (WEI): 0.006138842244449725 WETH (6138842244449725 wei)
+Claim Reward: 25 Claim(s) (USD): $18.87 ($18.86784827631887)
+
+Next Claim Reward: 26 Claim(s) (WEI): 0.006384395934227714 WETH (6384395934227714 wei)
+Next Claim Reward: 26 Claim(s) (USD): $19.62 ($19.622562207371626)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$17.39 = ($19.62 - $2.23) $17.391836253438008 = ($19.622562207371626 - $2.2307259539336175)
+
+
+5b. 27 Claim(s):
+
+Total gas cost: 27 Claim(s) (USD): $2.32 ($2.317121512118144)
+
+Claim Reward: 26 Claim(s) (WEI): 0.006384395934227714 WETH (6384395934227714 wei)
+Claim Reward: 26 Claim(s) (USD): $19.62 ($19.622562207371626)
+
+Next Claim Reward: 27 Claim(s) (WEI): 0.006629949624005703 WETH (6629949624005703 wei)
+Next Claim Reward: 27 Claim(s) (USD): $20.38 ($20.37727613842438)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$18.06 = ($20.38 - $2.32) $18.060154626306236 = ($20.37727613842438 - $2.317121512118144)
+
+
+5b. 28 Claim(s):
+
+Total gas cost: 28 Claim(s) (USD): $2.4 ($2.4035170703026703)
+
+Claim Reward: 27 Claim(s) (WEI): 0.006629949624005703 WETH (6629949624005703 wei)
+Claim Reward: 27 Claim(s) (USD): $20.38 ($20.37727613842438)
+
+Next Claim Reward: 28 Claim(s) (WEI): 0.006875503313783692 WETH (6875503313783692 wei)
+Next Claim Reward: 28 Claim(s) (USD): $21.13 ($21.13199006947714)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$18.73 = ($21.13 - $2.4) $18.72847299917447 = ($21.13199006947714 - $2.4035170703026703)
+
+
+5b. 29 Claim(s):
+
+Total gas cost: 29 Claim(s) (USD): $2.49 ($2.489912628487197)
+
+Claim Reward: 28 Claim(s) (WEI): 0.006875503313783692 WETH (6875503313783692 wei)
+Claim Reward: 28 Claim(s) (USD): $21.13 ($21.13199006947714)
+
+Next Claim Reward: 29 Claim(s) (WEI): 0.007121057003561681 WETH (7121057003561681 wei)
+Next Claim Reward: 29 Claim(s) (USD): $21.89 ($21.886704000529893)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$19.4 = ($21.89 - $2.49) $19.396791372042696 = ($21.886704000529893 - $2.489912628487197)
+
+
+5b. 30 Claim(s):
+
+Total gas cost: 30 Claim(s) (USD): $2.58 ($2.5763081866717235)
+
+Claim Reward: 29 Claim(s) (WEI): 0.007121057003561681 WETH (7121057003561681 wei)
+Claim Reward: 29 Claim(s) (USD): $21.89 ($21.886704000529893)
+
+Next Claim Reward: 30 Claim(s) (WEI): 0.00736661069333967 WETH (7366610693339670 wei)
+Next Claim Reward: 30 Claim(s) (USD): $22.64 ($22.641417931582648)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$20.07 = ($22.64 - $2.58) $20.065109744910924 = ($22.641417931582648 - $2.5763081866717235)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$19.31 = ($21.89 - $2.58) $19.310395813858168 = ($21.886704000529893 - $2.5763081866717235)
+
+Submitting transaction to claim 29 prize(s):
+
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x09b4d9eCa4Fe5b62a1104D497B0914E2689Dca2C-4-140
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x4431724041356C1d618E3C280Fd5de0246b2FE27-4-66
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x7F939e192104B9C456C37AB83d726F7B9f9Da04E-4-28
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xB7638fF88f8716eEcE777f0B9479AE8440928f22-4-146
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x9ceE8f3CD27015EA5da3995866f75C345583a604-4-106
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x73Bd43c4A40Cd1eCDB46be33235159aa0Dfa6b44-4-179
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xC3338372d6B046fEC30098B8ae9FE8D266f88E29-4-6
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x2AFD60d2F6B766C8E4b687C81732102e66C21Ec7-4-231
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xB59f8c972517d0BCBa3389De86a063865419514E-4-52
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x80b28FB30e27Ea02b712206FC263fB42c9A94d12-4-104
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xE499522d1080f8C318df9f28d17be551d52E618e-4-108
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x99D704b48Aa95c5b20E161E4a52Df04d1a92bc7D-4-199
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x310Dc0756Fe09e22041C7096E78b833202Dd3f39-4-131
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xB187032638FAA8bA27a48Df110d7aDEF2218e245-4-45
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x63859aF16Ee4F335DD5A9C0B8579B392554219d8-4-84
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xd1C8f7607160b547063DD4438ecA2B92e78DE220-4-124
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x4dCA1FCc09F096797B1ad3B00c45dED7930295a5-4-194
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x719835EA047C8C797f3C3c575B323AFeA52aECC1-4-87
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x6f29f2eC54954aA1a69Ba2aFdd6F786f7Ea68967-4-111
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x6B4C3348008BeAeA74d2430857AE75b1f8CF07f9-4-218
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x69d7db157c227FD8b954D18b19E65fb42cA4fbb9-4-253
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x805f8a4239600cD331E65C9873D951B567Ca46Ff-4-252
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xc09FDeBdc2e330791cE9a1c33Be17416bd044FEa-4-86
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x45aA4691d930eAcEcaA6c8563c8CEBff10Ad59c4-4-221
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0xEd7E4249dE2F5AD846434c60536Fd85f60D611fD-4-41
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x72fDC62452C44f9121cDC00EBe050545619A264C-4-192
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x68F6751C5eDCF8Fc3E9BC1639b1745ab0cc0A10D-4-166
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x924d3a9663c51844A62594a333A09246cd10f6d1-4-109
+0x7fad91a4a29109303188d8758f1a9d60ce988349-0x0713f910109499DF47dd84FF9df2e2A7836bA9eb-4-175
+
+
+
+Execute Claim Transaction for Tier #4
+
+
+
+Transaction sent! ✔
+Transaction hash: 0xa21398d6efc0086504f683abfaad65be584517d0817073c3c49dee3c7143fd57
+Waiting on transaction to be confirmed ...
+Tx confirmed !
+
+
+
+
+******************
+Processing:
+Vault:     0x33335296c9b020ca3252e4953c11decfdce816b8
+Tier:      #5 (Canary tier)
+# prizes:  353
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3064.63
+
+Estimated gas limit (wei) (1 prize claim): 0.000000000000189835 ETH (189835 wei)
+Estimated gas limit (wei) (2 prize claims): 0.000000000000274972 ETH (274972 wei)
+
+Gas Cost: First Claim (wei): 0.000000000000189835 ETH (189835 wei)
+Gas Cost: Each Following Claim (wei): 0.000000000000085137 ETH (85137 wei)
+
+Gas Cost: First Claim (USD): $0.07 $0.07091314897454745
+Gas Cost: Each Following Claim (USD): $0.09 $0.08683480060456654
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $0.07 ($0.07091314897454745)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.000013132948374663 WETH (13132948374663 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0.04 ($0.04036436635554585)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$-0.03 = ($0.04 - $0.07) $-0.030548782619001603 = ($0.04036436635554585 - $0.07091314897454745)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$-0.07 = ($0 - $0.07) $-0.07091314897454745 = ($0 - $0.07091314897454745)
+
+Claiming tier #5 (Canary tier) currently not profitable.
+Not profitable to claim for Draw #27, Tier: #5 (Canary tier)
+
+
+
+
+******************
+Processing:
+Vault:     0x7fad91a4a29109303188d8758f1a9d60ce988349
+Tier:      #5 (Canary tier)
+# prizes:  508
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xdea4278d8b01b71523bfd6a8fc36fea67f349e47
+Tier:      #5 (Canary tier)
+# prizes:  1
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x33335296c9b020ca3252e4953c11decfdce816b8
+Tier:      #6 (Canary tier)
+# prizes:  1432
+
+Tier #6 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x75b2f4b3ec5adf7077f928992524cc547e74f768
+Tier:      #6 (Canary tier)
+# prizes:  204
+
+Tier #6 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x7fad91a4a29109303188d8758f1a9d60ce988349
+Tier:      #6 (Canary tier)
+# prizes:  2298
+
+Tier #6 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xc0832b2d1380ec5550f86cd6c6bc2e9402c1f55c
+Tier:      #6 (Canary tier)
+# prizes:  4
+
+Tier #6 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xdea4278d8b01b71523bfd6a8fc36fea67f349e47
+Tier:      #6 (Canary tier)
+# prizes:  4
+
+Tier #6 (Canary tier) not profitable, skipping ...
+

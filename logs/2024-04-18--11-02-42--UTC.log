@@ -1,0 +1,88 @@
+Operating on: 11155420 - Optimism Sepolia
+
+Config - REWARD_RECIPIENT not provided, setting swap recipient to relayer address: 0x06003274c3a7926c04cA8d6903cc691fE8f3CEC2
+Config - MIN_PROFIT_THRESHOLD_USD: 0.05
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0x4a61B6f54157840E80e0C47f1A628C0B3744a739' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3004.7307    │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬──────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray              │
+├─────────┼──────────┼──────────────────────────────┤
+│ tiers   │ 4        │ [ 0, 1, 2, ... 1 more item ] │
+└─────────┴──────────┴──────────────────────────────┘
+Draw ID: 3
+Prize Token WETH MarketRate USD:  $3004.7307
+
+******************
+Getting prize vaults ...
+Found 6 prize vaults.
+
+
+Could not find winners for prize vault: 0x02dda5914b78f0751fdf5bbe2050efabd95dff46 (results not yet computed for new draw with id #3?)
+https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners-testnet/main/winners/vaultAccounts/11155420/0x122feca66c2b1ba8fa9c39e88152592a5496bc99/draw/3/0x02dda5914b78f0751fdf5bbe2050efabd95dff46.json
+
+Error: Not Found
+    at fetchClaims (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:784:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runPrizeClaimer (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:139:25)
+    at main (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/index.ts:35:5)
+
+Could not find winners for prize vault: 0x95849a4c2e58f4f8bf868adef10b05747a24ee71 (results not yet computed for new draw with id #3?)
+https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners-testnet/main/winners/vaultAccounts/11155420/0x122feca66c2b1ba8fa9c39e88152592a5496bc99/draw/3/0x95849a4c2e58f4f8bf868adef10b05747a24ee71.json
+
+Error: Not Found
+    at fetchClaims (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:784:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runPrizeClaimer (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:139:25)
+    at main (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/index.ts:35:5)
+
+Could not find winners for prize vault: 0xcc255d71c57a5d5f92183a66b7fc5589151adcd0 (results not yet computed for new draw with id #3?)
+https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners-testnet/main/winners/vaultAccounts/11155420/0x122feca66c2b1ba8fa9c39e88152592a5496bc99/draw/3/0xcc255d71c57a5d5f92183a66b7fc5589151adcd0.json
+
+Error: Not Found
+    at fetchClaims (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:784:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runPrizeClaimer (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:139:25)
+    at main (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/index.ts:35:5)
+
+Could not find winners for prize vault: 0xe039683d5f9717d6f74d252722546cfedab32250 (results not yet computed for new draw with id #3?)
+https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners-testnet/main/winners/vaultAccounts/11155420/0x122feca66c2b1ba8fa9c39e88152592a5496bc99/draw/3/0xe039683d5f9717d6f74d252722546cfedab32250.json
+
+Error: Not Found
+    at fetchClaims (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:784:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runPrizeClaimer (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:139:25)
+    at main (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/index.ts:35:5)
+
+Could not find winners for prize vault: 0xe1498d24a398b588b5e3f2c5d230991304203ad9 (results not yet computed for new draw with id #3?)
+https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners-testnet/main/winners/vaultAccounts/11155420/0x122feca66c2b1ba8fa9c39e88152592a5496bc99/draw/3/0xe1498d24a398b588b5e3f2c5d230991304203ad9.json
+
+Error: Not Found
+    at fetchClaims (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:784:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runPrizeClaimer (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:139:25)
+    at main (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/index.ts:35:5)
+
+Could not find winners for prize vault: 0xed2f166ad10b247f67c3fce7a4c8e0c5e54247ea (results not yet computed for new draw with id #3?)
+https://raw.githubusercontent.com/GenerationSoftware/pt-v5-winners-testnet/main/winners/vaultAccounts/11155420/0x122feca66c2b1ba8fa9c39e88152592a5496bc99/draw/3/0xed2f166ad10b247f67c3fce7a4c8e0c5e54247ea.json
+
+Error: Not Found
+    at fetchClaims (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:784:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runPrizeClaimer (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/node_modules/@generationsoftware/pt-v5-autotasks-library/src/prizeClaimer.ts:139:25)
+    at main (/home/runner/work/pt-v5-prize-claimer-gh-action-bot/pt-v5-prize-claimer-gh-action-bot/index.ts:35:5)
+No claimed prizes for draw #3.
+0 prizes remaining to be claimed...
+
+******************
+No prizes left to claim. Exiting ...

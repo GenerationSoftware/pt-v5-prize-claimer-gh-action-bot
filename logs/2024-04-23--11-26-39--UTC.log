@@ -1,0 +1,168 @@
+Operating on: 10 - Optimism
+
+Config - REWARD_RECIPIENT not provided, setting swap recipient to relayer address: 0xf9A3856b5368f60f2837c797A993F46C6ea7117d
+Config - MIN_PROFIT_THRESHOLD_USD: 0.05
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0x4200000000000000000000000000000000000006' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3180.7607    │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬───────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray               │
+├─────────┼──────────┼───────────────────────────────┤
+│ tiers   │ 6        │ [ 0, 1, 2, ... 3 more items ] │
+└─────────┴──────────┴───────────────────────────────┘
+Draw ID: 4
+Prize Token WETH MarketRate USD:  $3180.7607
+
+******************
+Getting prize vaults ...
+Found 13 prize vaults.
+
+190 prizes already claimed for draw #4.
+1217 prizes remaining to be claimed...
+
+
+
+
+******************
+Processing:
+Vault:     0x03d3ce84279cb6f54f5e6074ff0f8319d830dafe
+Tier:      #4 (Canary tier)
+# prizes:  106
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3176.32
+
+Estimated gas limit (wei) (1 prize claim): 0.000000000000186042 ETH (186042 wei)
+Estimated gas limit (wei) (2 prize claims): 0.000000000000264149 ETH (264149 wei)
+
+Gas Cost: First Claim (wei): 0.000000000000186042 ETH (186042 wei)
+Gas Cost: Each Following Claim (wei): 0.000000000000078107 ETH (78107 wei)
+
+Gas Cost: First Claim (USD): $0.01 $0.012375389459405767
+Gas Cost: Each Following Claim (USD): $0.01 $0.005337571656728873
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $0.01 ($0.012375389459405767)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.00000149146897022 WETH (1491468970220 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0 ($0.004744005885745246)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$-0.01 = ($0 - $0.01) $-0.007631383573660521 = ($0.004744005885745246 - $0.012375389459405767)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$-0.01 = ($0 - $0.01) $-0.012375389459405767 = ($0 - $0.012375389459405767)
+
+Claiming tier #4 (Canary tier) currently not profitable.
+Not profitable to claim for Draw #4, Tier: #4 (Canary tier)
+
+
+
+
+******************
+Processing:
+Vault:     0x1f16d3ccf568e96019cedc8a2c79d2ca6257894e
+Tier:      #4 (Canary tier)
+# prizes:  5
+
+Tier #4 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x3e8dbe51da479f7e8ac46307af99ad5b4b5b41dc
+Tier:      #4 (Canary tier)
+# prizes:  32
+
+Tier #4 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xa52e38a9147f5ea9e0c5547376c21c9e3f3e5e1f
+Tier:      #4 (Canary tier)
+# prizes:  6
+
+Tier #4 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x03d3ce84279cb6f54f5e6074ff0f8319d830dafe
+Tier:      #5 (Canary tier)
+# prizes:  547
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x1f16d3ccf568e96019cedc8a2c79d2ca6257894e
+Tier:      #5 (Canary tier)
+# prizes:  114
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x2998c1685e308661123f64b333767266035f5020
+Tier:      #5 (Canary tier)
+# prizes:  56
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0x3e8dbe51da479f7e8ac46307af99ad5b4b5b41dc
+Tier:      #5 (Canary tier)
+# prizes:  226
+
+Tier #5 (Canary tier) not profitable, skipping ...
+
+
+
+
+
+******************
+Processing:
+Vault:     0xa52e38a9147f5ea9e0c5547376c21c9e3f3e5e1f
+Tier:      #5 (Canary tier)
+# prizes:  125
+
+Tier #5 (Canary tier) not profitable, skipping ...
+

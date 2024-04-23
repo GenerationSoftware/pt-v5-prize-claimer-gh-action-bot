@@ -1,0 +1,70 @@
+Operating on: 10 - Optimism
+
+Config - REWARD_RECIPIENT not provided, setting swap recipient to relayer address: 0xf9A3856b5368f60f2837c797A993F46C6ea7117d
+Config - MIN_PROFIT_THRESHOLD_USD: 0.05
+
+Starting ...
+Getting prize pool info ...
+Getting prize context ...
+
+******************
+1. Prize token: WETH
+
+┌────────────┬──────────────────────────────────────────────┬──────────┬─────────────────┬────────┬──────────────┐
+│ (index)    │ address                                      │ decimals │ name            │ symbol │ assetRateUsd │
+├────────────┼──────────────────────────────────────────────┼──────────┼─────────────────┼────────┼──────────────┤
+│ prizeToken │ '0x4200000000000000000000000000000000000006' │ 18       │ 'Wrapped Ether' │ 'WETH' │ 3190.5562    │
+└────────────┴──────────────────────────────────────────────┴──────────┴─────────────────┴────────┴──────────────┘
+┌─────────┬──────────┬───────────────────────────────┐
+│ (index) │ numTiers │ tiersRangeArray               │
+├─────────┼──────────┼───────────────────────────────┤
+│ tiers   │ 6        │ [ 0, 1, 2, ... 3 more items ] │
+└─────────┴──────────┴───────────────────────────────┘
+Draw ID: 4
+Prize Token WETH MarketRate USD:  $3190.5562
+
+******************
+Getting prize vaults ...
+Found 13 prize vaults.
+
+40 prizes already claimed for draw #4.
+1367 prizes remaining to be claimed...
+
+
+
+
+******************
+Processing:
+Vault:     0x03d3ce84279cb6f54f5e6074ff0f8319d830dafe
+Tier:      #2
+# prizes:  1
+
+5a. Calculating # of profitable claims ...
+
+Native (Gas) Token ETH Market Rate (USD): $3190.64
+
+Estimated gas limit (wei) (1 prize claim): 0.000000000000265698 ETH (265698 wei)
+
+Gas Cost: First Claim (wei): 0.000000000000265698 ETH (265698 wei)
+
+Gas Cost: First Claim (USD): $0.05 $0.05142467968639065
+
+5b. 1 Claim(s):
+
+Total gas cost: 1 Claim(s) (USD): $0.05 ($0.05142467968639065)
+
+Next Claim Reward: 1 Claim(s) (WEI): 0.00002195363819333 WETH (21953638193330 wei)
+Next Claim Reward: 1 Claim(s) (USD): $0.07 ($0.07004431645028583)
+
+Net profit = (Gross Profit - Gas Cost [Avg])
+$0.02 = ($0.07 - $0.05) $0.018619636763895185 = ($0.07004431645028583 - $0.05142467968639065)
+
+******************
+5c. Profit/Loss (USD):
+
+Net profit = (Gross Profit - Gas Cost [Max])
+$-0.05 = ($0 - $0.05) $-0.05142467968639065 = ($0 - $0.05142467968639065)
+
+Claiming tier #2 currently not profitable.
+Not profitable to claim for Draw #4, Tier: #2
+Not profitable to claim any more tiers yet for Draw #4

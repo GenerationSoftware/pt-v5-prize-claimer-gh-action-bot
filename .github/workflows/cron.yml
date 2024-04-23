@@ -32,26 +32,19 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Get current date
+      - name: Store current date
         id: date
-        run: echo "date=$(date +'%Y-%m-%d--%H-%M-%S--%Z')" >> "$GITHUB_ENV"
+        run: echo "date=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
+      
+      - name: Store current time
+        id: time
+        run: echo "time=$(date +'%H-%M-%S_%Z')" >> "$GITHUB_ENV"
 
       - name: Run bot
         id: runBot
         run: |
           npm install
-          printf '%s\n' "$date"
-          mkdir -p logs && npx tsx index.ts | tee logs/"$date".log
-
-      - name: Commit Logs
-        continue-on-error: true
-        run: |
-          git config pull.rebase false
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git pull
-          git add logs/*
-          git commit -m "Add "$date".log for Prize Claimer bot run on Optimism Sepolia"
+          npx tsx index.ts
 
       - name: Push changes (if required)
         uses: ad-m/github-push-action@master
@@ -70,5 +63,5 @@ jobs:
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `Prize Claimer bot failed for run at "$date": Exit Code 1`
+              title: `Prize Claimer bot failed for run at "$date"__"$time": Exit Code 1`
             })

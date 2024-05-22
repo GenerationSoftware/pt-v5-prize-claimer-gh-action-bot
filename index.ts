@@ -28,14 +28,12 @@ const main = async () =>{
     rewardRecipient: envVars.REWARD_RECIPIENT,
     minProfitThresholdUsd: Number(envVars.MIN_PROFIT_THRESHOLD_USD),
     covalentApiKey: envVars.COVALENT_API_KEY,
+    contractJsonUrl: envVars.CONTRACT_JSON_URL,
+    subgraphUrl: envVars.SUBGRAPH_URL,
   };
 
-  try {
-    const contracts: ContractsBlob = await downloadContractsBlob(config.chainId, nodeFetch);
-    await runPrizeClaimer(contracts, config);
-  } catch (e) {
-    console.error(e);
-  }
+  const contracts: ContractsBlob = await downloadContractsBlob(config.contractJsonUrl, nodeFetch);
+  await runPrizeClaimer(contracts, config);
 }
 
 main() 

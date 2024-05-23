@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 10
   MIN_PROFIT_THRESHOLD_USD: 0.05
   REWARD_RECIPIENT: ''
-  JSON_RPC_URL: ${{ secrets.JSON_RPC_URL }}
+  JSON_RPC_URL: ${{ secrets.OPTIMISM_MAINNET_JSON_RPC_URL }}
   COVALENT_API_KEY: ${{ secrets.COVALENT_API_KEY }}
   CUSTOM_RELAYER_PRIVATE_KEY: ${{ secrets.CUSTOM_RELAYER_PRIVATE_KEY }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/396f04daedc5a38935460ddf47d2f10e9ac1fec6/deployments/optimism/contracts.json'

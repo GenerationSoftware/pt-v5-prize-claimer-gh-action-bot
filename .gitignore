@@ -1,4 +1,5 @@
 node_modules
 .yalc
 yalc.lock
-.envrc
+.envrc*
+!.envrc.example

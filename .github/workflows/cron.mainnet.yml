@@ -7,7 +7,7 @@ env:
   CHAIN_ID: 1
   MIN_PROFIT_THRESHOLD_USD: 0.2
   REWARD_RECIPIENT: ''
-  JSON_RPC_URL: ${{ secrets.BASE_MAINNET_JSON_RPC_URL }}
+  JSON_RPC_URL: ${{ secrets.ETHEREUM_MAINNET_JSON_RPC_URL }}
   COVALENT_API_KEY: ${{ secrets.COVALENT_API_KEY }}
   CUSTOM_RELAYER_PRIVATE_KEY: ${{ secrets.CUSTOM_RELAYER_PRIVATE_KEY }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/ca2acf967a962355b921fd4893306b961e7bc62a/deployments/ethereum/contracts.json'

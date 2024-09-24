@@ -13,6 +13,7 @@ env:
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/bc84c3f5e1d9703372ae7f9baf584bab42f47b27/deployments/base/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/41211/pt-v5-base/version/latest?source=pooltogether'
   NODE_OPTIONS: "--max_old_space_size=32768"
+  DEBUG: '*'
 permissions: write-all
 jobs:
   runCLI:

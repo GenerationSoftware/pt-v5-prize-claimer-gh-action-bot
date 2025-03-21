@@ -11,7 +11,7 @@ env:
   COVALENT_API_KEY: ${{ secrets.COVALENT_API_KEY }}
   CUSTOM_RELAYER_PRIVATE_KEY: ${{ secrets.CUSTOM_RELAYER_PRIVATE_KEY }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/196aa20f4a0b3e651d0504ffeb0e1b9a08c7ccb6/deployments/gnosis/contracts.json'
-  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-gnosis/version/latest'
+  SUBGRAPH_URL: 'https://api.goldsky.com/api/public/project_cm3xb1e8iup5601yx9mt5caat/subgraphs/pt-v5-gnosis/v0.0.1/gn'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:

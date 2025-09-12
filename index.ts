@@ -30,6 +30,7 @@ const main = async () =>{
     covalentApiKey: envVars.COVALENT_API_KEY,
     contractJsonUrl: envVars.CONTRACT_JSON_URL,
     subgraphUrl: envVars.SUBGRAPH_URL,
+    extendedFlags: envVars.EXTENDED_FLAGS,
   };
 
   const contracts: ContractsBlob = await downloadContractsBlob(config.contractJsonUrl, nodeFetch);
